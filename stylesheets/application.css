@@ -4140,7 +4140,7 @@ input[type="submit"].invert:hover {
 }
 .bbx-content-frame {
   position: relative;
-  padding: 48px;
+  /*padding: 48px;*/
   background-color: white;
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
   -moz-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
@@ -11551,13 +11551,28 @@ a.pswp__share--download:hover {
 
 .pswp--minimal--dark .pswp__top-bar {
   background: none; }
+   
+
+@media (max-width: 910px) {
+  .qns {font-size: 2em;}
+  .bbx-slider .swiper-container .swiper-slide {background-size: cover; background-repeat: no-repeat;}
+}
+@media (max-height: 500px) {
+  .qns {font-size: 1.7em;}
+  .lil-top, .lil-bottom {display: none;}
+  .bbx-slider .swiper-container .swiper-slide {
+    background-image: url(images/squintero2.jpg) !important;
+    transition: .5s ease-in-out;
+  }
+}
+@media (min-width: 1025px) {
+  .special-box {width: 60% !important;}
+}
+.bbx-slider .slide-content {opacity: 1 !important;}
+  
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
-
-
-
-
 
 
 
