@@ -921,7 +921,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.06);
 }
 @media (min-width: 648px) and (max-width: 1024px) {
-  span.bbx-wide-divider-small-detail {width: 50%;}
+  span.bbx-wide-divider-small-detail {width: 60%;}
 }
 .bbx-wide-divider-small-detail:after {
   content: '';
