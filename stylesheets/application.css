@@ -919,6 +919,9 @@ a:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0f000000, endColorstr=#0f000000)";
   background-color: rgba(0, 0, 0, 0.06);
 }
+@media (min-width: 648px) and (max-width: 1024px) {
+  span.bbx-wide-divider-small-detail {width: 50%;}
+}
 .bbx-wide-divider-small-detail:after {
   content: '';
   position: absolute;
