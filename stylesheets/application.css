@@ -40,6 +40,7 @@ Version: 1.0
 /*-----------------------------------------------------------------------------------*/
 /*	2.	Mixins
 /*-----------------------------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield);
 .padding-fix {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
