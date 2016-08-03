@@ -11569,6 +11569,7 @@ a.pswp__share--download:hover {
 .qns {
   font-weight: 900 !important;
   font-size: 4em;
+  line-height: 1 !important;
 }
 @media (max-height: 500px) {
   .qns {
