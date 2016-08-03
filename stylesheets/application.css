@@ -11590,15 +11590,18 @@ a.pswp__share--download:hover {
   .special-box {width: 50% !important;}
 }
 @media (max-width: 1400px) and (min-width: 876px) {
-  .qns {font-size: 3em;}
+  /*.qns {font-size: 3em;}*/
   .bbx-slider .swiper-container .swiper-slide {
     background-repeat: no-repeat;
     background-position: right;
   }
   .special-box {width: 50% !important;}
 }
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1400px) {
   .special-box {width: 50% !important;}
+}
+@media (min-width: 1400px) {
+  .special-box {width: 70% !important;}
 }
 .bbx-slider .slide-content {opacity: 1 !important;}
   
